@@ -1,0 +1,8 @@
+{
+  "extends": ["airbnb-base", "prettier", "prettier/react"],
+  "plugins": ["import", "prettier"],
+  "env": {
+    "node": true,
+    "jest": true
+  }
+}

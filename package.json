@@ -1,0 +1,23 @@
+{
+  "name": "kata-boilerplate",
+  "version": "0.0.1",
+  "description": "Boilerplate for Node katas",
+  "main": "index.js",
+  "repository": "github.com/angie/kata-boilerplate",
+  "author": "Angie Merryweather <6738119+angie@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint lib/",
+    "test": "yarn lint && jest --coverage",
+    "test:watch": "yarn test --watch"
+  },
+  "dependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-prettier": "^2.6.2",
+    "jest": "^23.4.2",
+    "prettier": "^1.14.2"
+  }
+}
