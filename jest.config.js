@@ -12,6 +12,7 @@ module.exports = {
     },
   },
   collectCoverageFrom: ['lib/**/*.js', '!lib/**/*original.js'],
+  resetMocks: true,
   testEnvironment: 'node',
   testMatch: ['**/__tests__/**/*.js?(x)', '**/?(*.)+(test).js?(x)'],
 };
